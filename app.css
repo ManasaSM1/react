@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+body {
+  height: 10vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.movie-container {
+  width: 340px;
+}
+.movie-poster {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  background-color: teal;
+}
+.movie-specs{
+  display: flex;
+}
