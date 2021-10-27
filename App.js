@@ -98,16 +98,16 @@ name={mv.name}
  poster={mv.poster} 
  rating={mv.rating} 
  summary={mv.summary} />  )}
-
+function Movie({name,poster,rating,summary}){
   return (
     <div className="movie-container">
       <img className="movie-poster" 
-      src={movies.poster}
-            alt={movies.name} />
+      src={poster}
+            alt={name} />
      <div className="movie-specs">
-     <h3>{movies.name}</h3>
-     <p>{movies.rating}</p>
-     <p>{movies.summary}</p>     </div>
+     <h3>{name}</h3>
+     <p>{rating}</p>
+     <p>{summary}</p>   <Counter />  </div>
       </div>
       
   )
